@@ -1,0 +1,149 @@
+h1 {
+  background-color: #13418c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 75px;
+}
+
+body {
+  background-color: #cbd9ef;
+  
+}
+
+#button1 {
+  position: fixed;
+  left: 960px;
+  top: 50px;
+  color: #13418c;
+  background-color: #b5d0f2;
+  cursor: pointer;
+  }
+#button2 {
+  position: fixed;
+  left: 1060px;
+  top: 50px;
+  background-color: #b5d0f2;
+  color: #13418c;
+  cursor: pointer;
+}
+#button3 {
+  position: fixed;
+  left: 1180px;
+  top: 50px;
+  background-color: #b5d0f2;
+  color: #13418c;
+  cursor: pointer;
+}
+
+#p1 {
+  margin-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 200px;
+  margin-top: 125px;
+  background-color: #97befc;  
+  color: #0d3b84;
+  font-size: 18px;
+  font-family: Verdana;
+  border: 0.55px solid #13418c;
+}
+
+#img1 {
+  margin-top: -135px;
+  margin-left: 762px;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+#p2 {
+  
+  padding-top: 20px;
+  padding-bottom: 600px;
+  margin-top: -18px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: Verdana;
+  color: #7e8daf;
+  background-color: #bcc7d8;
+  border: 0.55px solid #13418c;
+}
+
+#p3 {
+  
+  padding-top: 20px;
+  margin-top: -18px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: #7e8daf;
+  background-color: #bcc7d8;
+  font-family: Verdana;
+  font-size: 26px;
+  border-top: 0.55px solid #13418c;
+  border-left: 0.55px solid #13418c;
+  border-right: 0.55px solid #13418c;
+}
+
+#p4 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 19px;
+  background-color: #bcc7d8;
+  
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  width: 73%;
+    margin-top: -18px;
+    margin-bottom: 65px;
+    background-color: #bcc7d8;
+    border-left: 0.55px solid #13418c; 
+    border-right: 0.55px solid #13418c;
+  border-bottom: 0.55px solid #13418c;
+  padding-bottom: 30px;
+} 
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  
+ 
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #b5d0f2;
+    color: #13418c;
+    padding: 12px 20px;
+    border: 0.55px solid #13418c;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #5e86c1;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 12px;
+  font-family: Verdana;
+}
