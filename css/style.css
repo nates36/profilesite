@@ -1,145 +1,135 @@
-h1 {
-  background-color: #13418c;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 75px;
+body {  
+  text-align: center;
+  background-color: #789edb;
 }
 
-body {
-  background-color: #cbd9ef;
+#centerpage {
+  background-color: #abc2e8;
+  border: 2px solid #13294c;
+  
 }
 
-#button1 {
+#banner {    
   position: fixed;
-  left: 960px;
-  top: 50px;
-  color: #13418c;
-  background-color: #b5d0f2;
-  cursor: pointer;
+  top: 0px;
+  margin-left: -17px;
+  padding-bottom: 75px;
+  background-color: #031054;
 }
-#button2 {
+
+#butt1 {
   position: fixed;
-  left: 1060px;
-  top: 50px;
-  background-color: #b5d0f2;
-  color: #13418c;
-  cursor: pointer;
+  margin-left: 750px;
+  margin-top: 20px;
+  color: #abc2e8;
+  background-color: #3d6fc6;
 }
-#button3 {
+
+#butt2 {
   position: fixed;
-  left: 1180px;
-  top: 50px;
-  background-color: #b5d0f2;
-  color: #13418c;
-  cursor: pointer;
+  margin-left: 830px;
+  margin-top: 20px;
+  color: #abc2e8;
+  background-color: #3d6fc6;
+}
+
+#butt3 {
+  position: fixed;
+  margin-left: 944px;
+  margin-top: 20px;
+  color: #abc2e8;
+  background-color: #3d6fc6;
 }
 
 #p1 {
-  margin-right: 200px;
-  padding-top: 100px;
-  padding-bottom: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-left: 200px;
-  margin-top: 125px;
-  background-color: #97befc;
-  color: #0d3b84;
-  font-size: 18px;
+  margin-left: -420px;
+  margin-top: 160px;
+  color: #13294c;
   font-family: Verdana;
-  border: 0.55px solid #13418c;
-}
-
-#img1 {
-  margin-top: -135px;
-  margin-left: 762px;
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 #p2 {
-  padding-top: 20px;
-  padding-bottom: 600px;
-  margin-top: -18px;
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 26px;
-  font-family: Verdana;
-  color: #7e8daf;
-  background-color: #bcc7d8;
-  border: 0.55px solid #13418c;
+  margin-top: 200px;
+  font-size: 30px;
+  font-family: Arial;
+  color: #13294c;
+  
 }
 
 #p3 {
-  padding-top: 20px;
-  margin-top: -18px;
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: center;
-  font-weight: bold;
-  color: #7e8daf;
-  background-color: #bcc7d8;
-  font-family: Verdana;
-  font-size: 26px;
-  border-top: 0.55px solid #13418c;
-  border-left: 0.55px solid #13418c;
-  border-right: 0.55px solid #13418c;
+  margin-top: 600px;
+  font-size: 30px;
+  font-family: Arial;
+  color: #13294c;
+  
 }
 
-#p4 {
-  padding-top: 20px;
-  text-align: center;
-  font-size: 19px;
-  background-color: #bcc7d8;
+#img1 {
+  margin-left: 560px;
+  margin-top: -2430px;
+  border-radius: 10%;
 }
 
-/* Add a background color and some padding around the form */
-#container {
-  width: 73%;
-  margin-top: -18px;
-  margin-bottom: 65px;
-  background-color: #bcc7d8;
-  border-left: 0.55px solid #13418c;
-  border-right: 0.55px solid #13418c;
-  border-bottom: 0.55px solid #13418c;
-  padding-bottom: 30px;
-}
-
-/* Style inputs with type="text", select elements and textareas */
-input[type="text"],
-select,
-textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type="submit"] {
-  background-color: #b5d0f2;
-  color: #13418c;
-  padding: 12px 20px;
-  border: 0.55px solid #13418c;
+#img2 {
+  border: 1px solid white;
   border-radius: 4px;
-  cursor: pointer;
+  width: 400px;
+  height: 200px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type="submit"]:hover {
-  background-color: #5e86c1;
+#p4 {  
+  margin-bottom: -200px;
+  margin-left: 220px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 200px;
+  word-wrap: break-word;
 }
 
-#copyright {
-  text-align: center;
-  font-size: 12px;
-  font-family: Verdana;
+#firstname {
+  padding-left: 300px;
+  padding-bottom: 12px;
+}
+
+#lastname {
+  padding-left: 300px;
+  padding-bottom: 12px;
+}
+
+#message {
+  padding-left: 332px;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+input[type=text], select, textarea {
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 4%;
+}
+
+#send {
+  padding-left: 360px;
+  padding-top: 12px;
+  padding-bottom: 40px;
+}
+
+input[type=submit] {
+  border: none;
+  border-radius: 4%;
+  padding: 10px 18px;
+  color: #abc2e8;
+  background-color: #3d6fc6;
+}
+
+#p5 {
+  font-family: arial;
+  font-size: 14px;
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
